@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4)), url("https://images.pexels.com/photos/1563356/pexels-photo-1563356.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    height: 100vh;
+    
+    
+    background-size: cover;
+    background-position: center;
+}
+ul{
+    float: right;
+    list-style: none;
+    margin-top: 25px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    transition: .5s;
+}
+
+ul li a:hover{
+    background: white;
+    color: black;
+}
+.logo img{
+    float: left;
+    width: 60px;
+    height: auto;
+    top: 50px;
+    padding: 10px 20px;
+}
+.main{
+    max-width: 1200px;
+    height: auto;
+}
